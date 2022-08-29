@@ -3,14 +3,16 @@ import "./App.css";
 import Home from "./components/Home";
 import PopularMenu from "./components/PopularMenu";
 import FreeDelivery from "./components/FreeDelivery";
+import Discount from "./components/Discount";
 
 function App() {
   return (
     <div>
       <Home />
-      <PopularMenu/>
-      <FreeDelivery/>
-     {/* <div className="App">
+      <PopularMenu />
+      <Discount />
+      <FreeDelivery />
+      {/* <div className="App">
        <header className="App-header">
          <img src={logo} className="App-logo" alt="logo" />
          <p>
@@ -27,7 +29,7 @@ function App() {
        </header>
      </div>*/}
     </div>
-    );
-  }
-  
-  export default App;
+  );
+}
+
+export default App;
