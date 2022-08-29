@@ -5,6 +5,7 @@ import PopularMenu from "./components/PopularMenu";
 import FreeDelivery from "./components/FreeDelivery";
 import Discount from "./components/Discount";
 import HowToOrder from "./components/HowToOrder";
+import Footer from "./components/Footer";
 import AgusWaiters from "./components/AgusWaiters";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <HowToOrder />
       <FreeDelivery />
       <AgusWaiters />
+      <Footer />
       {/* <div className="App">
        <header className="App-header">
          <img src={logo} className="App-logo" alt="logo" />

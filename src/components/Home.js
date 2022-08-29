@@ -3,7 +3,7 @@ import React from "react";
 export default function Home() {
   return (
     <div className=" text-white" style={{ paddingBottom: "8rem" }}>
-      <img src="/assets/purpleImage.png" className="h-100 w-100 home" alt="" />
+      <img src="/assets/headerImage.png" className="h-100 w-100 home" alt="" />
       {/* <nav className="position-absolute navbar navbar-expand-lg bg-transparent navbar-dark fixed-top"> */}
       <nav className="navbar navbar-expand-lg bg-transparent navbar-dark fixed-top">
         <div className="container-fluid">
