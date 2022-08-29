@@ -2,12 +2,14 @@ import logo from "./logo.svg";
 import "./App.css";
 import Home from "./components/Home";
 import PopularMenu from "./components/PopularMenu";
+import FreeDelivery from "./components/FreeDelivery";
 
 function App() {
   return (
     <div>
       <Home />
       <PopularMenu/>
+      <FreeDelivery/>
      {/* <div className="App">
        <header className="App-header">
          <img src={logo} className="App-logo" alt="logo" />

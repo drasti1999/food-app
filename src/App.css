@@ -41,21 +41,17 @@
 /* custom css */
 
 body {
-  background-image: url('/public/assets/Background.png');
+  background: #dceac0;
+  text-align: justify;
+  z-index: 0;
 }
-
 
 /* for home container */
 /* ---------------------------------------------------------------------------------------------------- */
 .home {
-  background-image: url('/public/assets/Shape\ 3-2.png');
-  background-size: cover;
-  /* position: absolute; */
-  width: 100%;
-  top: -48px;
-  /* overflow: hidden; */
-  /* position relative leaves empty space so overflow: hidden */
-  /* z-index: 0; */
+  position: absolute;
+  z-index: 1;
+  top: 0rem;
 }
 
 .dots {
@@ -89,3 +85,16 @@ body {
   float: right;
   top: 668px;
 }
+/* for buttons and text */
+  .btn-site,.btn-site:hover {
+    background-color: #6688b0;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+  }
+  
+  .text-site {
+    color: #6688b0;
+    text-transform: uppercase;
+  }
