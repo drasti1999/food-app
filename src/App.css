@@ -85,17 +85,27 @@ body {
   float: right;
   top: 668px;
 }
+
 /* for buttons and text */
-  .btn-site,.btn-site:hover {
-    background-color: #6688b0;
-    text-transform: uppercase;
-    color: white;
-    letter-spacing: 3px; 
-    font-size: 1rem;
-    padding: 15px 50px;
-  }
-  
-  .text-site {
-    color: #6688b0;
-    text-transform: uppercase;
-  }
+.btn-site,
+.btn-site:hover {
+  background-color: #6688b0;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  padding: 15px 50px;
+}
+
+.bg-site {
+  background-color: #6688b0;
+}
+
+.text-color {
+  color: #6688b0;
+}
+
+.text-site {
+  color: #6688b0;
+  text-transform: uppercase;
+}
