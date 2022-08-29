@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import PopularMenu from "./components/PopularMenu";
 import FreeDelivery from "./components/FreeDelivery";
 import Discount from "./components/Discount";
+import HowToOrder from "./components/HowToOrder";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <PopularMenu />
       <Discount />
+      <HowToOrder />
       <FreeDelivery />
       {/* <div className="App">
        <header className="App-header">

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Discount() {
   return (
-    <div className="container-fluid my-5 gx-0 p-0 border-0 bg-white">
+    <div className="container-fluid mt-5 gx-0 p-0 border-0 bg-white">
       <div className="row m-0 p-0 g-0 w-100">
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
           <img
