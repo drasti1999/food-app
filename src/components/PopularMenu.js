@@ -62,6 +62,16 @@ export default function PopularMenu() {
           <button className="btn rounded-5 btn-site">Show More</button>
         </div>
       </div>
+        <div className="w-100">
+          <img
+            src="/assets/PrupleDotsSide.png"
+            alt=""
+            className="position-relative float-end"
+            style={{ zIndex: "10" }}
+            width={100}
+            height={50}
+          />
+        </div>
     </div>
   );
 }
