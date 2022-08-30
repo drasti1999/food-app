@@ -51,7 +51,7 @@ export default function HowToOrder() {
               </div>
             </div>
           </div>
-     
+          <img src="/assets/PrupleDotsSide.png" alt="" height={50} width={100} className="position-absolute" style={{marginTop:"-1rem",right:"15px",zIndex:"1"}}/>
         </div>
       </div>
     </div>

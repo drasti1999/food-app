@@ -53,18 +53,6 @@ body {
   z-index: 1;
   top: 0rem;
 }
-
-.dots {
-  height: 150px !important;
-  top: 52%;
-  left: 92%;
-  padding: 0%;
-  margin-left: 35px;
-  width: 90px;
-  position: relative;
-  background-image: url('/public/assets/Shape\ 6-2.png');
-}
-
 .img-design {
   position: relative;
   /* width: 1176px; */
