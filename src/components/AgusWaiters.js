@@ -3,7 +3,8 @@ import React from "react";
 export default function AgusWaiters() {
   return (
       <div className="container">
-        <img src="/assets/PrupleDotsSide.png" alt="" height={50} width={100} className="position-absolute" style={{marginTop:"-1rem"}}/>
+        <img src="/assets/PrupleDotsSide.png" alt="" height={50} width={100} className="position-absolute" style={{marginTop:"-1rem",right:"15px",zIndex:"1"
+}}/>
         <div className="py-5 d-flex justify-content-center">
           <img src="/assets/Quote.png" alt="" />
         </div>

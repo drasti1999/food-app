@@ -62,7 +62,7 @@ export default function PopularMenu() {
           <button className="btn rounded-5 btn-site">Show More</button>
         </div>
       </div>
-        <div className="w-100">
+        {/* <div className="w-100">
           <img
             src="/assets/PrupleDotsSide.png"
             alt=""
@@ -71,7 +71,7 @@ export default function PopularMenu() {
             width={100}
             height={50}
           />
-        </div>
+        </div> */}<img src="/assets/PrupleDotsSide.png" alt="" height={50} width={100} className="position-absolute" style={{marginTop:"-1rem",right:"15px",zIndex:"1"}}/>
     </div>
   );
 }
