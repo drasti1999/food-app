@@ -117,10 +117,29 @@ body {
   background-position-y: center;
 }
 
-/* for footer last 3 about columns */
-@media only screen and (max-width:575px){
-  .w-custom-footer{
+.nav-link
+{
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width:575px) {
+
+  /* for footer last 3 about columns */
+  .w-custom-footer {
     width: auto;
     margin-top: 2rem;
+  }
+
+  /* cutom navigation bar items */
+  .bg-sm-custom {
+  background-color: #6688b0;
+    width:100% ;
+    justify-content: center !important;
+  }
+
+  .bg-sm-custom-color
+  {
+    color:#FFF !important;
   }
 }

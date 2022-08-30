@@ -2,14 +2,11 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className=" text-white" style={{ paddingBottom: "8rem" }}>
+    <div className="text-white" style={{ paddingBottom: "8rem" }}>
       <img src="/assets/headerImage.png" className="h-100 w-100 home" alt="" />
       {/* <nav className="position-absolute navbar navbar-expand-lg bg-transparent navbar-dark fixed-top"> */}
-      <nav className="navbar navbar-expand-lg bg-transparent navbar-dark fixed-top">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
+      <nav className="navbar navbar-expand-sm bg-transparent navbar-dark fixed-top mt-2">
+        <div className="container">
           <button
             className="navbar-toggler"
             type="button"
@@ -21,42 +18,43 @@ export default function Home() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form className="d-flex" role="search">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+          <a className="navbar-brand display-3" href="#">
+            Food Site
+          </a>
+          <div className="d-flex justify-content-end w-100 bg-sm-custom">
+            <div>
+              <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav">
+                  <li className="nav-item">
+                    <a className="nav-link active bg-sm-custom-color" aria-current="page" href="#">
+                      Home
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link bg-sm-custom-color" href="#">
+                      Our Menu
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link bg-sm-custom-color" href="#">
+                      Promo
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link bg-sm-custom-color" href="#">
+                      Order
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
-      <div className="container-fluid mt-5 position-relative p-5" style={{zIndex:2}}>
+      <div
+        className="container-fluid mt-5 position-relative p-5"
+        style={{ zIndex: 2 }}
+      >
         <div className="row row-cols-12 g-0">
           <div className="col-11 mt-3">
             <h1 className="text-center h1 fw-bolder display-1">
