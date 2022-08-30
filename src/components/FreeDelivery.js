@@ -3,7 +3,7 @@ import React from "react";
 export default function FreeDelivery() {
   return (
     <div className="my-0 py-5 bg-site bg-free-delivery">
-      <div className="container">
+      <div className="container pb-5">
         <h1 className="text-center display-4 fw-bolder text-color">Free Delivery</h1>
       </div>
       <div className="d-flex justify-content-center my-2 pb-3">
