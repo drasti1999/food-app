@@ -116,3 +116,11 @@ body {
   background-position-x: center;
   background-position-y: center;
 }
+
+/* for footer last 3 about columns */
+@media only screen and (max-width:575px){
+  .w-custom-footer{
+    width: auto;
+    margin-top: 2rem;
+  }
+}
