@@ -3,7 +3,7 @@ import React from "react";
 export default function PopularMenu() {
   return (
     <div>
-      <div className="container">
+      <div className="container pb-5">
         <h1 className="text-center text-site">Popular Menu</h1>
         <div className="row my-2 g-4">
           <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">

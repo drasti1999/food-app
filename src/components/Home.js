@@ -26,7 +26,11 @@ export default function Home() {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link active bg-sm-custom-color" aria-current="page" href="#">
+                    <a
+                      className="nav-link active bg-sm-custom-color"
+                      aria-current="page"
+                      href="#"
+                    >
                       Home
                     </a>
                   </li>
@@ -67,7 +71,22 @@ export default function Home() {
           </div>
           {/* <div className="col-1 dots"></div> */}
         </div>
-<img src="/assets/whiteDotsUp.png" alt="" height={100} width={80} className="position-absolute" style={{marginTop:"-4.5rem",right:"15px",zIndex:"1"}}/>
+        <img
+          src="/assets/whiteDotsUp.png"
+          alt=""
+          height={100}
+          width={80}
+          className="position-absolute"
+          style={{ marginTop: "-13.5rem", right: "15px", zIndex: "1" }}
+        />
+        <img
+          src="/assets/whiteDotsSide.png"
+          alt=""
+          width={100}
+          height={70}
+          className="position-absolute"
+          style={{ left: "35px", zIndex: "1" }}
+        />
       </div>
     </div>
   );

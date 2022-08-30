@@ -9,6 +9,14 @@ export default function Footer() {
         alt=""
         style={{ marginTop: "-30rem" }}
       />
+      <img
+        src="/assets/PrupleDotsSide.png"
+        alt=""
+        width={100}
+        height={50}
+        className="position-absolute"
+        style={{ marginTop: "-15.5rem", left: "35px", zIndex: "1" }}
+      />
       {/* <nav className="position-absolute navbar navbar-expand-lg bg-transparent navbar-dark fixed-top"> */}
       <div className="bg-site">
         <div className="container position-relative" style={{ zIndex: 2 }}>
@@ -79,6 +87,13 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+      >
+        <i class="fas fa-arrow-up"></i>
+      </button>
     </div>
   );
 }
