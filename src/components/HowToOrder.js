@@ -3,6 +3,7 @@ import React from "react";
 export default function HowToOrder() {
   return (
     <div className="my-0 py-5 bg-site">
+<img src="/assets/whiteDotsSide.png" alt="" height={50} width={100} className="position-absolute" style={{marginTop:"-4.5rem",right:"15px",zIndex:"1"}}/>
       <div className="container">
         <h1 className="text-center text-white text-uppercase">How To Order</h1>
         <div className="row mb-2 mt-3 g-4">
@@ -51,7 +52,6 @@ export default function HowToOrder() {
               </div>
             </div>
           </div>
-          <img src="/assets/PrupleDotsSide.png" alt="" height={50} width={100} className="position-absolute" style={{marginTop:"-1rem",right:"15px",zIndex:"1"}}/>
         </div>
       </div>
     </div>

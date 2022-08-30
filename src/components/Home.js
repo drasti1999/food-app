@@ -67,6 +67,7 @@ export default function Home() {
           </div>
           {/* <div className="col-1 dots"></div> */}
         </div>
+<img src="/assets/whiteDotsUp.png" alt="" height={100} width={80} className="position-absolute" style={{marginTop:"-4.5rem",right:"15px",zIndex:"1"}}/>
       </div>
     </div>
   );

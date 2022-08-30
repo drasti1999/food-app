@@ -8,10 +8,10 @@ export default function Discount() {
           <img
             src="/assets/chinese1.jpg"
             alt=""
-            className="img img-thumbnail border-0 bg-transparent rounded-0"
+            className="img-thumbnail border-0"
           />
         </div>
-        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 px-4 pt-5">
+        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 px-4  align-self-center">
           <div className="h1 display-5 fw-bold">
             Discount up to <br /> 50% All Menu
           </div>
@@ -27,7 +27,7 @@ export default function Discount() {
         </div>
       </div>
       <div className="row m-0 p-0 g-0 w-100 border-0 mt-0">
-        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 px-4 pt-5">
+        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 px-4 align-self-center">
           <div className="h1 display-5 fw-bold">
             Discount up to <br /> 50% All Menu
           </div>
